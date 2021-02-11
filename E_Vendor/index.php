@@ -18,7 +18,7 @@
         <?php
         include 'include/header.php';
         ?>
-       
+       <!-- write landing page code here -->
         <?php
         include 'include/footer.php';
         ?>

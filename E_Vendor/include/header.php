@@ -37,11 +37,10 @@
                                     </div>
                                 </form>
                             </li>
-                        </ul>
-
-                        <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
                             <li><a href="login_signup_page.php"><span class="glyphicon glyphicon-log-in"></span> Login / Sign Up</a></li>
+                             <li><a href="cart_page.php"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+                        
                         </ul>
                     </div>
                 </div>

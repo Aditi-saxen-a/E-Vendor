@@ -19,7 +19,7 @@
         <?php
         include 'include/header.php';
         ?>
-           <div class='container' >
+          <div class='container' >
             <div class='row'>
                 <!-- who we are column-->
                 <div class='col-xs-12 col-sm-4'>

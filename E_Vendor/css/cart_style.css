@@ -1,15 +1,50 @@
-body,
-html {
-    width: 100%;
-    height: 100%;
+
+.table>tbody>tr>td,
+.table>tfoot>tr>td {
+  vertical-align: middle;
 }
-.navigationbar{
-    background-color: #112d32;
+
+@media screen and (max-width: 600px) {
+  table#cart tbody td .form-control {
+    width: 20%;
+    display: inline !important;
+  }
+  .actions .btn {
+    width: 36%;
+    margin: 1.5em 0;
+  }
+  .actions .btn-info {
+    float: left;
+  }
+  .actions .btn-danger {
+    float: right;
+  }
+  table#cart thead {
+    display: none;
+  }
+  table#cart tbody td {
+    display: block;
+    padding: .6rem;
+    min-width: 320px;
+  }
+  table#cart tbody tr td:first-child {
+    background: #333;
+    color: #fff;
+  }
+  table#cart tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+    display: inline-block;
+    width: 8rem;
+  }
+  table#cart tfoot td {
+    display: block;
+  }
+  table#cart tfoot td .btn {
+    display: block;
+  }
 }
-.homepage{
-    background-image:linear-gradient(#88bdbc,#E1E687);
-}
- /* footer page */
+/* footer page */
 .span-or {
     display: block;
     position: absolute;
@@ -79,44 +114,3 @@ color: #999; }
 footer.nb-footer .copyright p {
 margin: 0;
 padding: 0; }
-/* contact page */
-
-.contactpage{
-    background-image: url(../img/contact_background.jpg);
-    background-size: cover;
-}
-.jumbotron{
-    background-color: rgba(47,75,80,0.5);
-}
-.contacttxt{
-    color: #fff;
-    text-align: center;
-    font:italic bold 30px serif;
-}
-.contact_heading{
-    color: #fff;
-    text-align: center;
-    font: bold 25px cursive;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-}
-.contact_details{
-    font: normal 20px Georgia;
-    color:black;
-}
-.contact_form{
-    background-color:rgba(208,208,208,0.3);
-    text-align: center;
-}
-
-/* about us page */
-.aboutpage{
-    background-image: url(../img/about_bakground.jpg);
-    background-size: cover;
-}
-.panel{
-    background-color: #b7e2f0;
-}
-.panel-body{
-    text-align: center;
-}
