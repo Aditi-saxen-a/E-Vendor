@@ -110,3 +110,13 @@ padding: 0; }
 }
 
 /* about us page */
+.aboutpage{
+    background-image: url(../img/about_bakground.jpg);
+    background-size: cover;
+}
+.panel{
+    background-color: #b7e2f0;
+}
+.panel-body{
+    text-align: center;
+}
